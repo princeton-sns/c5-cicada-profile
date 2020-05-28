@@ -36,5 +36,3 @@ sudo usermod -a -G hugeshm `whoami`
 # Clone repo
 sudo git clone --recursive https://github.com/efficient/cicada-exp-sigmod2017.git /usr/local/src
 
-# Reboot
-sudo reboot
