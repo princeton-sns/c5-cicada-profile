@@ -8,8 +8,8 @@ import geni.portal as portal
 import geni.rspec.pg as pg
 
 # CONSTANTS
-IMAGE = "urn:publicid:IDN+apt.emulab.net+image+emulab-ops:UBUNTU14-64-STD"
-HW_TYPE = "c220g2"
+IMAGE = "urn:publicid:IDN+emulab.net+image+emulab-ops:UBUNTU16-64-STD"
+HW_TYPE = "c220g5"
 
 # Create a portal context.
 pc = portal.Context()
