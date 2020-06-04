@@ -34,5 +34,5 @@ sudo groupadd hugeshm
 sudo usermod -a -G hugeshm `whoami`
 
 # Clone repo
-sudo git clone --recursive https://github.com/efficient/cicada-exp-sigmod2017.git /usr/local/src
+sudo git clone --recursive https://github.com/efficient/cicada-exp-sigmod2017.git /usr/local/src/cicada-exp
 
