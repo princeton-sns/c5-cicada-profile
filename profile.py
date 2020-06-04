@@ -9,6 +9,7 @@ import geni.rspec.pg as pg
 
 # CONSTANTS
 IMAGE = "urn:publicid:IDN+apt.emulab.net+image+emulab-ops:UBUNTU14-64-STD"
+HW_TYPE = "c220g5"
 
 # Create a portal context.
 pc = portal.Context()
@@ -19,6 +20,7 @@ request = pc.makeRequestRSpec()
 # Add a raw PC to the request.
 node = request.RawPC("node")
 node.disk_image = IMAGE
+node.hardware_type = HW_TYPE
 
 # Install and execute a script that is contained in the repository.
 node.addService(pg.Execute(shell="sh", command="/local/repository/setup.sh"))
