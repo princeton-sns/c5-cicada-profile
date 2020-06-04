@@ -9,7 +9,7 @@ import geni.rspec.pg as pg
 
 # CONSTANTS
 IMAGE = "urn:publicid:IDN+apt.emulab.net+image+emulab-ops:UBUNTU14-64-STD"
-HW_TYPE = "c220g5"
+HW_TYPE = "c220g2"
 
 # Create a portal context.
 pc = portal.Context()
