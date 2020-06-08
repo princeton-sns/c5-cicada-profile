@@ -1,2 +1,2 @@
-# thermopylae-profile-silo
-CloudLab profile for Silo (as part of Thermopylae) 
+# copycat-cicada-profile
+CloudLab profile for Cicada

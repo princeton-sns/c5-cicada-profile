@@ -1,5 +1,5 @@
 """
-CloudLab profile for Silo (as part of Thermopylae)
+CloudLab profile for Cicada
 """
 
 # Import the Portal object.
