@@ -8,7 +8,7 @@ import geni.portal as portal
 import geni.rspec.pg as pg
 
 # CONSTANTS
-IMAGE = "urn:publicid:IDN+emulab.net+image+emulab-ops:UBUNTU16-64-STD"
+IMAGE = "urn:publicid:IDN+wisc.cloudlab.us+image+cops-PG0:copycat-cicada-node-0"
 HW_TYPE = "c220g5"
 
 # Create a portal context.
